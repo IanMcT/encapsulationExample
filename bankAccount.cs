@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace encapsulationExample
 {
-    class bankAccount
+    class BankAccount
     {
         private string password;
         private double balance;
 
-        public bankAccount()
+        public BankAccount()
         {
             balance = 0;
         }
 
-        public bankAccount(string p)
+        public BankAccount(string p)
         {
             password = p;
             balance = 0;
