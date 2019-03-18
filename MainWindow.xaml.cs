@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,7 +20,7 @@ namespace encapsulationExample
     /// </summary>
     public partial class MainWindow : Window
     {
-        bankAccount b = new bankAccount("123456");
+        BankAccount b = new BankAccount("123456");
         public MainWindow()
         {
             InitializeComponent();
